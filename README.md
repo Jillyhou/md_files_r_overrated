@@ -34,4 +34,21 @@ The Supervisor is a small local model that reads the .rep anchors and monitors t
 
 The Blueprint is the compiled artifact. It is the only thing that gets shared, versioned, and distributed.
 
+Background & References
+The ideas here build directly on prior work and would be dishonest to present otherwise.
+
+Retrieval heads. Wu et al., Retrieval Head Mechanistically Explains Long-Context Factuality.
+
+LOCOS. Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads (ICML 2026).
+
+Dynamic retrieval heads. Retrieval Heads are Dynamic (ACL 2026).
+
+Retrieval-head optimization. From Interpretability to Performance: Optimizing Retrieval Heads for Long-Context Language Models (2026).
+
+Attention-steering interventions. DySCO, COMPASS (PID attention steering), V-Steer / Attn-Steer.
+
+Latent reasoning. Scaling up Test-Time Compute with Latent Reasoning (NeurIPS 2025); LaTER.
+
+Long-context failure localization. Work tracing context degradation to retrieval-head attention collapse and demonstrating training-free attention repair.
+
 Full code @ md_files_are_overrated (˶ᵔ ᵕ ᵔ˶)
